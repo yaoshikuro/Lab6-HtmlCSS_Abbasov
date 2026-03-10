@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Формы</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Регистрация</legend>
+                    <label>
+                        Имя <input type="text" placeholder="Ваше имя" required />
+                    </label>
+                    <label>
+                        Email <input type="email" autocomplete="email" />
+                    </label>
+                    <label>
+                        Пароль <input type="password" readonly value="12345" />
+                    </label>
+                    <label>
+                        Комментарий <textarea placeholder="Текст"></textarea>
+                    </label>
+                    <label>
+                        Поколение ЭВМ
+                        <select>
+                            <optgroup label="ЭВМ">
+                                <option>Первое</option>
+                                <option>Второе</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label>
+                        Число <input type="number" inputmode="numeric" disabled />
+                    </label>
+                </fieldset>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+        <aside>
+            <p>Пример обязательных и отключённых полей</p>
+        </aside>
+    </main>
+    <footer>
+        <a href="index.html">Назад</a>
+    </footer>
+</body>
