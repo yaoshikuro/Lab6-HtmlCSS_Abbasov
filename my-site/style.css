@@ -1,0 +1,19 @@
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+p {
+    font-size: 24px;
+}
+#gen1 {
+    border: 2px solid black;
+}
+#main-title {
+    color: blue;
+}
+.title {
+    color: green;
+}
+h1 {
+    color: black;
+}
