@@ -1,19 +1,49 @@
-.btn-primary {
-    background-color: blue;
-    color: white;
+* {
+  box-sizing: border-box;
 }
-p {
-    font-size: 24px;
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #333;
 }
-#gen1 {
-    border: 2px solid black;
+
+header,
+footer {
+  background: #2a6df4;
+  color: white;
+  padding: 15px;
 }
-#main-title {
-    color: blue;
+
+nav {
+  background: #eef2ff;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
 }
-.title {
-    color: green;
+
+nav a {
+  text-decoration: none;
+  color: #2a6df4;
+  font-weight: bold;
 }
-h1 {
-    color: black;
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section,
+aside {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #d0d7e2;
 }
